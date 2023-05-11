@@ -65,7 +65,7 @@ class ZedVC:
                 await self.client(
                     functions.phone.CreateGroupCallRequest(
                         peer=chat,
-                        title="Zed VC",
+                        title="مكالمة ســورس ريبـــثون",
                     )
                 )
                 await self.join_vc(chat=chat, join_as=join_as)
