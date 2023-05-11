@@ -3,7 +3,7 @@ from enum import Enum
 
 from requests.exceptions import MissingSchema
 from requests.models import PreparedRequest
-from Zara.utils import runcmd
+from zthon.utils import runcmd
 from yt_dlp import YoutubeDL
 
 
