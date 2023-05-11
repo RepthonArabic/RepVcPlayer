@@ -1,13 +1,14 @@
 #الملف تابع لـ سورس CatUserBot
 #تعـريب سـورس زدثــون
+# حقوق زدثون - اني باقر
 import asyncio
 import logging
 
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.types import User
-from Zara import Config, zedub
-from Zara.core.managers import edit_delete, edit_or_reply
+from zthon import Config, zedub
+from zthon.core.managers import edit_delete, edit_or_reply
 
 from .helper.stream_helper import Stream
 from .helper.tg_downloader import tg_dl
