@@ -1,11 +1,12 @@
 #الملف تابع لـ سورس CatUserBot
 #تعـريب سـورس زدثــون
+# حقوق زدثون - اني باقر
 from telethon import functions
 from telethon.errors import ChatAdminRequiredError, UserAlreadyInvitedError
 from telethon.tl.types import Channel, Chat, User
-from Zara import zedub
-from Zara.core.managers import edit_delete, edit_or_reply
-from Zara.helpers.utils import mentionuser
+from zthon import zedub
+from zthon.core.managers import edit_delete, edit_or_reply
+from zthon.helpers.utils import mentionuser
 
 plugin_category = "البوت"
 
@@ -54,7 +55,7 @@ async def start_vc(event):
         await zedub(
             functions.phone.CreateGroupCallRequest(
                 peer=vc_chat,
-                title="Zed VC",
+                title="مكالمة ســورس ريبـــثون",
             )
         )
         await edit_delete(event, "**- جـارِ بـدء محـادثـه صـوتيـه ...**")
