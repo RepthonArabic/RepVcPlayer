@@ -7,9 +7,9 @@ from datetime import datetime
 
 from telethon.tl import types
 from telethon.utils import get_extension
-from Zara.Config import Config
-from Zara.core.managers import edit_or_reply
-from Zara.helpers import progress
+from zthon.Config import Config
+from zthon.core.managers import edit_or_reply
+from zthon.helpers import progress
 
 NAME = "untitled"
 
