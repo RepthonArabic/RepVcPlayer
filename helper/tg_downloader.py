@@ -7,9 +7,9 @@ from datetime import datetime
 
 from telethon.tl import types
 from telethon.utils import get_extension
-from zthon.Config import Config
-from zthon.core.managers import edit_or_reply
-from zthon.helpers import progress
+from repthon.Config import Config
+from repthon.core.managers import edit_or_reply
+from repthon.helpers import progress
 
 NAME = "untitled"
 
